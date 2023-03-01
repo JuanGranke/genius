@@ -1,0 +1,88 @@
+button.buttons{
+    position: relative;
+    bottom: 120px;
+    padding: 80px;
+    border-radius: 10%;
+    border-color: black;
+    margin: 5px;
+    box-shadow: 10px 10px black;
+}
+
+
+
+button#top-left{
+    border-top-left-radius: 100%;
+    background-color: #FF6652;
+}
+button#top-left:hover{
+    background-color: #BF4C3D;
+    transition: 0.5s;
+}
+
+
+
+
+button#top-right{
+    border-top-right-radius: 100%;
+    background-color: #33FF74;
+}
+button#top-right:hover{
+    background-color: #26BF57;
+    transition: 0.5s;
+}
+
+
+
+
+button#bottom-left{
+    border-bottom-left-radius: 100%;
+    background-color: #5479FF;
+}
+button#bottom-left:hover{
+    background-color: #3F5BBF;
+    transition: 0.5s;
+}
+
+
+
+
+button#bottom-right{
+    border-bottom-right-radius: 100%;
+    background-color: #FFEC3D;
+    /*#BFB12E - 75%*/
+}
+button#bottom-right:hover{
+    background-color: #BFB12E;
+    transition: 0.5s;
+}
+
+
+
+
+
+div#container{
+    margin-top: 200px;
+}
+
+
+
+h1#title{
+    position: relative;
+    text-align: center;
+    text-shadow: 8px 8px black;
+    font-size: 100px;
+    font-family: Stencil Std, fantasy;
+    color: white;
+}
+
+
+
+body{
+    background-color: #5d8aa8;
+}
+
+h2#scorebord{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
